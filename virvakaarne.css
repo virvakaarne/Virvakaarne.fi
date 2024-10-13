@@ -1,0 +1,79 @@
+body {
+    background-image: url("virvakaarne_taustakuva.jpg");
+}
+
+header {
+    padding: 5%;
+}
+
+.navilogo {
+    max-width: 30%;
+    height: 5%;
+    object-fit: cover;
+    margin-left: 2,5%;
+    margin-right: auto;
+}
+
+.navinappi {
+    background-color: rgb(236, 141, 68);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(69, 38, 0);
+    padding: 2%;
+}
+
+nav {
+    display: flex;
+    margin-left: 20%;
+}
+
+.teksti {
+    background-color:rgb(255, 248, 239);
+    width: 65%;
+    margin-left: auto;
+    margin-right: 5%;
+    padding: 5%;
+}
+
+.etusivulogo {
+    max-width: 60%;
+    max-height: 20%;
+    object-fit: contain;
+}
+
+.profiilikuva {
+    max-width: 40%;
+    max-height: 60%;
+    object-fit: contain;
+    float:inline-end;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a {
+    color: rgb(100, 37, 0);
+    text-decoration: none;
+}
+
+hr {
+    border-color: rgb(69, 38, 0);
+    background-color: rgb(69, 38, 0);
+}
+
+footer {
+    text-align: center;
+}
